@@ -1,0 +1,49 @@
+.recipe {
+    border-radius: 10px;
+    box-shadow:  0px 5px 20px rgb(77, 77, 77);
+    margin: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.116);
+    align-items: center;
+    min-width: 40%;
+    width: 40%;
+    font-family: 'Chilanka', cursive;
+}
+
+.recipe h1 {
+    color: rgba(255, 255, 255, 0.555);
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.recipe h1:hover {
+    color: rgba(255, 255, 255, 0.753);
+}
+
+.recipe ul {
+    color: rgba(255, 255, 255, 0.753);
+}
+
+.recipe h3 {
+    color: rgba(255, 255, 255, 0.753);
+}
+
+.image {
+    border-radius: 25%;
+    height: 150px;
+    width: 150px;
+}
+
+.HowToCook {
+    color: rgba(255, 255, 255, 0.555);
+    text-decoration: underline;
+    padding: 5px;
+}
+
+.HowToCook:hover {
+    color: rgba(255, 255, 255, 0.753);
+    cursor: pointer;
+}
